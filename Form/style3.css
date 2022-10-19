@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(182, 224, 29);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 35px;
+    margin: 0 0;
+}
+
+p {
+    font-size: 30px;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+
+.input_ {
+    max-width: fit-content;
+    padding: 5px;
+    margin: 5px;
+    font-size: 30px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid rgb(31, 109, 255);
+}
+
+.btn {
+    padding: 5px;
+    margin: 5px;
+    font-size: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(31, 109, 255);
+
+
+}
+
+.btn:hover {
+    padding: 5px;
+    margin: 5px;
+    font-size: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: black;
+    color: rgb(31, 109, 255);
+}
+
+.him {
+    background: url("./himars.jpg") 0 0 no-repeat;
+    height: 700px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h5 {
+    font-size: 25px;
+    margin: 0 0;
+}
+
+span {
+
+    text-transform: uppercase;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
